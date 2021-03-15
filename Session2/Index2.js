@@ -182,7 +182,7 @@ for (let i = 0; i < 8; ++i) {
 }*/
 
 //Ex 9.d:
-{
+/*{
     let n = Number(prompt("Enter the total number of 1's and 0's"));
     for (let i = 0; i < n; ++i) {
         if (i % 2) {
@@ -192,4 +192,33 @@ for (let i = 0; i < 8; ++i) {
             console.log("0");
         }
     }
-}
+}*/
+
+//Ex 10:
+/*{
+    let w = Number(prompt(" cân nặng của bạn là (kg)?"));
+    let h = Number(prompt(" chiều cao của bạn là (cm)?"));
+    h = h / 100;
+    let bmi = w / (h * h);
+    alert(`Cân nặng của bạn là ${w}kg. Chiều cao là ${h}m`);
+    if(bmi<16)
+    {
+        alert('Suy dinh dưỡng');
+    }
+    else if( bmi > 16 && bmi < 18.5)
+    {
+        alert('Thiếu cân');
+    }
+    else if( bmi > 18.5 && bmi < 25)
+    {
+        alert('Bình thường');
+    }
+    else if( bmi > 25 && bmi < 30)
+    {
+        alert('Thừa cân');
+    }
+    else
+    {
+        alert('Béo phì');
+    }
+}*/
