@@ -1,23 +1,23 @@
 //Ex 1.1:
-    console.log("var, let và const là các từ khóa (keywords) dùng để khai báo biến.");
-    console.log('const là từ khóa khai báo biến hằng số');
+    // console.log("var, let và const là các từ khóa (keywords) dùng để khai báo biến.");
+    // console.log('const là từ khóa khai báo biến hằng số');
 
 //Ex 1.2:
-    console.log("var có phạm vi lớn , còn let có phạm vi khối (block scoped).");
-    console.log("Trong phạm vi sử dụng, dùng var: các biến có thể cập nhật và khai báo lại, còn dùng let: các biến có thể cập nhật nhưng không được khai báo lại.");
+    // console.log("var có phạm vi lớn , còn let có phạm vi khối (block scoped).");
+    // console.log("Trong phạm vi sử dụng, dùng var: các biến có thể cập nhật và khai báo lại, còn dùng let: các biến có thể cập nhật nhưng không được khai báo lại.");
     
 //Ex 1.3:
-    console.log("let có thể được khai báo mà không cần khởi tạo giá trị, còn const phải được khởi tạo giá trị khi khai báo.");
+    // console.log("let có thể được khai báo mà không cần khởi tạo giá trị, còn const phải được khởi tạo giá trị khi khai báo.");
 
 //Ex 1.4:
-    console.log("Dùng const khi biết giá trị của biến không thay đổi(bất biến).");
-    console.log("Dùng let trong các trường hợp giá trị của biến thay đổi và biến được đặt trong 1 block(như vòng lặp for, câu lệnh điều kiện if,...).");
-    console.log("Dùng var trong các trường hợp giá trị của biến thay đổi và biến là biến toàn cục trong chương trình.");
+    // console.log("Dùng const khi biết giá trị của biến không thay đổi(bất biến).");
+    // console.log("Dùng let trong các trường hợp giá trị của biến thay đổi và biến được đặt trong 1 block(như vòng lặp for, câu lệnh điều kiện if,...).");
+    // console.log("Dùng var trong các trường hợp giá trị của biến thay đổi và biến là biến toàn cục trong chương trình.");
 
 //Ex 2.1:
-    console.log("Boolean là kiểu dữ liệu logic.");
+    // console.log("Boolean là kiểu dữ liệu logic.");
 //Ex 2.2:
-    console.log("Boolean chỉ có 2 giá trị là true và false.");
+    // console.log("Boolean chỉ có 2 giá trị là true và false.");
 
 //Ex 3.a:
 /*{
@@ -182,7 +182,7 @@ for (let i = 0; i < 8; ++i) {
 }*/
 
 //Ex 9.d:
-/*{
+{
     let n = Number(prompt("Enter the total number of 1's and 0's"));
     for (let i = 0; i < n; ++i) {
         if (i % 2) {
@@ -192,7 +192,7 @@ for (let i = 0; i < 8; ++i) {
             console.log("0");
         }
     }
-}*/
+}
 
 //Ex 10:
 /*{
@@ -205,7 +205,7 @@ for (let i = 0; i < 8; ++i) {
     {
         alert('Suy dinh dưỡng');
     }
-    else if( bmi > 16 && bmi < 18.5)
+    else if( bmi < 18.5)
     {
         alert('Thiếu cân');
     }
