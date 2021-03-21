@@ -89,7 +89,7 @@ const a = [4, 5, 7, -8];
     
 }*/
 //Ex 11:
-{
+/*{
     let listNum = prompt("Nhập 1 dãy số, mỗi số ngăn cách nhau bằng dấu phẩy(,), in ra màn hình dãy số lẻ");
     let aNum = listNum.split(",");
     let oddNum = [];
@@ -102,4 +102,4 @@ const a = [4, 5, 7, -8];
         }
     }
     alert(listNum+' => '+oddNum);
-}
+}*/
