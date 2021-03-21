@@ -65,16 +65,30 @@ const a = [4, 5, 7, -8];
 
 //Ex 5: Write a script to ask users enter a sequence of numbers, the Numbers are separated by commas, calculate the sum of the numbers and show it to users
 /*{
-    let listNum = prompt("Nhập 1 dãy số, mỗi số ngăn cách nhau bằng dấu phẩy(,), in ra màn hình dãy số lẻ");
+    let listNum = prompt("Nhập 1 dãy số, mỗi số ngăn cách nhau bằng dấu phẩy(,)");
     let aNum = listNum.split(",");
 }*/
 //Ex 6: Write a script asking users to enter a sequence of numbers, the numbers are separated by commas, find the smallest number and log it out to users
 //Ex 7: Create an array containing at least 5 numbers, then ask users enter a number, perform a search to look for the number in the array, if the number is found, tell user that with the index of it in the array, if not, also tell them so
+{
+    const arr = [3, 4, 6, -9, 10, -88, 2];
+    let inNum = Number(prompt('Tìm 1 số trong mảng'));
+    let index = arr.indexOf(inNum);
+    if(index != -1)
+    {
+        console.log(`Số ${inNum} có trong mảng nằm ở vị trí ${index}`);
+       
+    }
+    else
+    {
+        console.log(`Số ${inNum} không có trong mảng`);
+    }
+}
 //Ex 8.1: Create an array to represent the sizes of your flock, and log all of your flock size, expected screen output:
 /*{
     let sheepSizes = [5, 7, 300, 90, 24, 50, 75];
     console.log("Hello, my name is Huu Dung and here is my sheep sizes:");
-    console.log(sheepSizes);
+    console.log(sheepSizes.join(" "));
 }*/
 //Ex 10:
 /*{
