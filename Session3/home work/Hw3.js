@@ -80,6 +80,11 @@ const a = [4, 5, 7, -8];
 /*{
     let listNum = prompt("Nhập 1 dãy số, mỗi số ngăn cách nhau bằng dấu phẩy(,)");
     let aNum = listNum.split(",");
+    let min = Infinity;
+    for(let x of array){
+        min = min > Number(x) ? x : min;
+    }
+    alert(`The smallest number is ${min}`);
 }*/
 //Ex 7: Create an array containing at least 5 numbers, then ask users enter a number, perform a search to look for the number in the array, if the number is found, tell user that with the index of it in the array, if not, also tell them so
 /*{
