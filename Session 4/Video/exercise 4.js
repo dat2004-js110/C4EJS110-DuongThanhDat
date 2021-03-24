@@ -111,33 +111,33 @@
     // let newcast = prompt("Name of charaters you want to add?");
     // movie.characters.push(newcast);
 // Ex 7: Create an array named movies, containing at least three movies, all have title, year, rate and characters properties Log or print all the movies in the movies array, for example
-    let movie1 = 
-    {
-        title:'The Godfather',
-        year: 1972,
-        rate: 9.2,
-        Cast: ['Tom Hanks', 'Michael Clarke Duncan', 'David Morse',]
-    }
- let movie2 = 
-    {
-        title:'The Shawshank Redemption',
-        year: 1994,
-        rate: 9.3,
-        Cast: ['Tom Hanks', 'Michael Clarke Duncan', 'David Morse',]
-    }
- let movie3 = 
-    {
-        title:'The Green Miler',
-        year: 1999,
-        rate: 8.6,
-        Cast: ['Tom Hanks', 'Michael Clarke Duncan', 'David Morse',]
-    }
-    let listMovie = [movie1,movie2,movie3];
-    for(let x of listMovie){
-        console.log("------------------------------");
-        console.log(x.title);
-        console.log("Year: " + x.year);
-        console.log("Rate: " + x.rate);
-        console.log("Casts: " + x.Cast.toString().replace(/,/g, " "));}
+//     let movie1 = 
+//     {
+//         title:'The Godfather',
+//         year: 1972,
+//         rate: 9.2,
+//         Cast: ['Tom Hanks', 'Michael Clarke Duncan', 'David Morse',]
+//     }
+//  let movie2 = 
+//     {
+//         title:'The Shawshank Redemption',
+//         year: 1994,
+//         rate: 9.3,
+//         Cast: ['Tom Hanks', 'Michael Clarke Duncan', 'David Morse',]
+//     }
+//  let movie3 = 
+//     {
+//         title:'The Green Miler',
+//         year: 1999,
+//         rate: 8.6,
+//         Cast: ['Tom Hanks', 'Michael Clarke Duncan', 'David Morse',]
+//     }
+//     let listMovie = [movie1,movie2,movie3];
+//     for(let x of listMovie){
+//         console.log("------------------------------");
+//         console.log(x.title);
+//         console.log("Year: " + x.year);
+//         console.log("Rate: " + x.rate);
+//         console.log("Casts: " + x.Cast.toString().replace(/,/g, " "));}
 
     
