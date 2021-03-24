@@ -104,7 +104,7 @@ const a = [4, 5, 7, -8];
 //Ex 8.1: Create an array to represent the sizes of your flock, and log all of your flock size, expected screen output:
 /*{
     let sheepSizes = [5, 7, 300, 90, 24, 50, 75];
-    console.log("Hello, my name is Huu Dung and here is my sheep sizes:");
+    console.log("Hello, my name is Đạt and here is my sheep sizes:");
     console.log(sheepSizes.join(" "));
 }*/
 //Ex 10:
