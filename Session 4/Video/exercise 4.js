@@ -77,13 +77,13 @@
 //         rate: 8.6,
 //     }
 //      let listMovie = [movie1,movie2,movie3];
-    // console.log(listMovie[0]);
-    // console.log(listMovie[listMovie.length-1].title);
+//     // console.log(listMovie[0]);
+//     // console.log(listMovie[listMovie.length-1].title);
 
-// Ex 5.4: Use a loop to print or log out all of the movie in the movie list
-    // for (let x in listMovie) {
-    //     console.log(listMovie[x]);
-    //     }
+// // Ex 5.4: Use a loop to print or log out all of the movie in the movie list
+//     for (let x in listMovie) {
+//         console.log(listMovie[x]);
+//         }
 
 // Ex 5.5: Use a loop to print or log out all of the movie in the movie list, the data is prettified as follow
     // for(let x of listMovie){
