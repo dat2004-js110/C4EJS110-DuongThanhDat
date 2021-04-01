@@ -197,7 +197,3 @@ let learningFrontEndDev = [
 //     }
 
 // Ex 6.6:(Optional) Make printing / logging better
-console.log("Hi there, this is your learning tasks to front-end developer career:");
-    for (let i in learningFrontEndDev) {
-        console.log(`${Number(i) + 1}. ${learningFrontEndDev[i].Complete} ${learningFrontEndDev[i].Task}`)
-    }
