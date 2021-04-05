@@ -68,24 +68,24 @@ Use getElementsByTagName function to get ALL of the <div> tag. Print/log out the
 // bai6();
 
 // Ex 7.1:Catch ‘click’ event from 2 different buttons, id=”button1” and id=”button2”, in the callback body of the 2 events, print, or log out e.target. What is it?
-function bai71(){
-    let x = document.getElementById("button1");
-        x.addEventListener('click', (e) => {
-        console.log(e.target);
-    });
-    let y = document.getElementById("button2");
-        y  .addEventListener('click', (e) => {
-        console.log(e.target);
-    });
-}
+// function bai71(){
+//     let x = document.getElementById("button1");
+//         x.addEventListener('click', (e) => {
+//         console.log(e.target);
+//     });
+//     let y = document.getElementById("button2");
+//         y  .addEventListener('click', (e) => {
+//         console.log(e.target);
+//     });
+// }
 
 
 // Ex 7.2: Catch a ‘keydown’ event from an input, in the callback body of the event, print / log out the e.key. What is it?
-function ex72(){
-    document.getElementById("input").addEventListener('keydown', (e) =>{
-        console.log(e.key);
-    })
-}
+// function ex72(){
+//     document.getElementById("input").addEventListener('keydown', (e) =>{
+//         console.log(e.key);
+//     })
+// }
 
 // Ex 8: Write a function, using alert to show your name and one thing you wish to do this year
 // function ex8(){
