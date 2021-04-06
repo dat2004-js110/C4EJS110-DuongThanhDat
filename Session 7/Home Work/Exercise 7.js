@@ -124,21 +124,22 @@ Use getElementsByTagName function to get ALL of the <div> tag. Print/log out the
 //     console.log(input11);
 //     let result = document.getElementById("result");
 // }
+// bai11();
 
 
 // Ex 12:
-let items = ['Backpack', 'Miband watch', 'Ring'];
-    console.log(items);
-    let items1 = document.getElementById("items1");
-    console.log(items1);
-    for (let i=0; i<items.length; i++) {
-        items1.insertAdjacentHTML ('beforeend', 
-        `<li>${items[i]}</li>`
-        )
-    }
-    let test = document.getElementsByClassName("test");
-    while(test.length > 0) {
-        test[0].remove();
-    }
+// let items = ['Backpack', 'Miband watch', 'Ring'];
+//     console.log(items);
+//     let items1 = document.getElementById("items1");
+//     console.log(items1);
+//     for (let i=0; i<items.length; i++) {
+//         items1.insertAdjacentHTML ('beforeend', 
+//         `<li>${items[i]}</li>`
+//         )
+//     }
+//     let test = document.getElementsByClassName("test");
+//     while(test.length > 0) {
+//         test[0].remove();
+//     }
 
 
