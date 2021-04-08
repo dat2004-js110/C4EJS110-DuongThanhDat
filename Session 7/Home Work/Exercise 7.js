@@ -41,6 +41,7 @@ Use getElementsByTagName function to get ALL of the <li> tag. Print/log out the 
 //         console.log(x[i]);
 //     }
 // }
+// bai4();
 
 
 /* Ex 5: You can get DOM (Read) by class name using getElementsByClassName function. The result you get, again, is NOT a single HTMLElement by a HTMLCollection. Refer to this link.
@@ -112,7 +113,7 @@ Use getElementsByTagName function to get ALL of the <div> tag. Print/log out the
 //     let button11 = document.getElementById("button11");
 //     console.log(button11);
 //     button11.addEventListener ('click', (e) => {
-//         console.log (button11.innerText + ' just clicked');
+//         console.log ('Upper it, just clicked');
 //         let name = input11.value;
 //         console.log ('Name of user: ' + name);
 //         let upperName = name.toUpperCase();
