@@ -3,9 +3,9 @@ function cau1(){
     let count = 0;
     document.getElementById("ketqua").textContent = count;
     let posUp = document.getElementById("countUp");
-    posUp.addEventListener('click',() => {document.getElementById("ketqua").textContent =count++});
+    posUp.addEventListener('click',() => {document.getElementById("ketqua").textContent = ++count});
     let posDown = document.getElementById("countDown");
-    posDown.addEventListener('click', () =>{ document.getElementById("ketqua").textContent=count--});
+    posDown.addEventListener('click', () =>{ document.getElementById("ketqua").textContent= --count});
 }
 // cau1();
 
